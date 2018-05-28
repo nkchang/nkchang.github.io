@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "nkchang.idv.gafmradio",
+    "sha256_cert_fingerprints":
+    ["8C:E9:F5:9C:6D:3B:7D:B6:39:C5:E5:74:12:B3:BD:20:36:0F:20:33:1B:DD:1B:3B:B7:E1:90:10:40:6B:4B:9A"]
+  }
+}]
