@@ -2,22 +2,18 @@
 <head>
   <title>Nick's Github page</title>
 </head>
-
-  <body>
+<script language="JavaScript">
+function ShowTime(){
+　document.getElementById('showbox').innerHTML = new Date();
+　setTimeout('ShowTime()',1000);
+}
+</script>
+<body onload="ShowTime()">
+<div id="showbox"></div>
     <h1>Nick's Github page</h1>
     <list>
       <l1>
         Nick's Github page</li>
     </list>
-    last update:
-    <script language="JavaScript">
-    function ShowTime(){
-    　document.getElementById('showbox').innerHTML = new Date();
-    　setTimeout('ShowTime()',1000);
-    }
-    </script>
-    <body onload="ShowTime()">
-    <div id="showbox"></div>
-
   </body>
 </html>
